@@ -5,18 +5,29 @@
 
  .news-app {
     margin-top: 20px;
+    padding: 20px;
+ }
+
+.news-item {
+    background-color: rgba(24, 23, 23, 0.568);
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 30px;
     
 }
 
-.news-item {
-    background-color: aliceblue;
+.news-image {
     width: 300px;
-    border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
+    
 }
 
-.news-img {
-    width: 190px;
+.news-item a {
+   text-decoration: none;
+   color: black;
 }
 
+.news-item p {
+    color: white;
+}
