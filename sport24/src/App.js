@@ -6,9 +6,12 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <NewsList />
+
+    <div className='container'>
+      <div className='nav'><Nav /></div>
+      <div className="content"><NewsList /></div>
+      <div className='footer'>foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+      oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooter</div>
     </div>
   );
 }

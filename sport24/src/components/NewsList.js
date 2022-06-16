@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import NewsItem from "./NewsItem";
+import "./NewsList.css"
 
 const NewsList = () => {
     const [articles, setArticles] = useState([]);
@@ -15,7 +16,7 @@ const NewsList = () => {
     }, [])
 
     return (
-        <div>
+        <div className="return">
             {articles.map(article => {
                 return (
                 <NewsItem 
